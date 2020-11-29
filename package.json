@@ -4,13 +4,17 @@
   "description": "modulo 1 calificable",
   "main": "(index.html)",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "dev": "lite-server",
+     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://JEPB1@bitbucket.org/JEPB1/modulo1.git"
   },
-  "author": "",
+  "author": "jorge palacios",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/JEPB1/modulo1#readme"
+  "homepage": "https://bitbucket.org/JEPB1/modulo1#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
